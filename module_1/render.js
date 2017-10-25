@@ -7,4 +7,4 @@ const res = ReactDOMServer.renderToString(
   React.createElement(BlogPage)
 );
 
-console.log(res);
+export default res;
